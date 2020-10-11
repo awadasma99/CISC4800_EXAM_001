@@ -1,0 +1,55 @@
+body {
+    margin: 100px auto;
+    width: 75%; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    margin-bottom: 50px; 
+}
+
+input {
+    font-size: 16px;
+}
+
+ul {
+    color: blue;
+}
+
+li {
+    padding: 2px;
+}
+
+#topics {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+td, th {
+    padding-right: 20px;
+    padding-left: 8px;
+    padding-bottom: 20px;
+}
+
+#register {
+    margin-top: 75px;
+}
+
+#mail-link {
+    text-decoration: none;
+    color: #0059c4;
+}
+
+#web-link {
+    color: black;
+}

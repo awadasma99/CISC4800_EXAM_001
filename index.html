@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CISC4800_EXAM_001</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+
+        <style>
+            #header, #register { text-align: center; }
+            h1 { color: blue; letter-spacing: -3px; }
+        </style>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>TECHCLASS</h1>
+            <h2>Real World Experience</h2>
+
+            <img src="computer.png" alt="computer" width="200">
+        </div>
+
+        <form>
+            <label for="course">Search:</label>
+            <input type="text" id="course" name="course" placeholder="find course">
+        </form>
+
+        <div id="requirements">
+            <p>
+                The following items are required for purchase to attend the next class:
+                <ul>
+                    <li>Computer</li>
+                    <li><span style="color: red">Mouse</span></li>
+                    <li>Keyboard</li>
+                    <span style="color: red"><li>Webcam</li></span>
+                    <li>Printer</li>
+                </ul>
+            </p>
+        </div>
+
+        <div id="topics">
+            <p> 
+                <span style="font-style: italic;">
+                The class will focus on 
+                <span style="color:red; text-decoration: underline;">three</span><span style="text-decoration: underline;"> things</span>:
+                </span>
+                <ol>
+                    <li>IT</li>
+                    <span style="font-weight: bold; font-style: italic;"><li>Installation</li></span>
+                    <li>Basic Software</li>
+                </ol>
+            </p>
+        </div>
+
+        <div id="registration">
+            <p>
+                <span style="text-decoration: underline;">The following is the schedule for the course:</span>
+                <br><br><br>
+                <table border="1">
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Meeting Dates & Time</th>
+                        <th>Price</th>
+                        <th>Availability</th>
+                    </tr>
+
+                    <tr>
+                        <td>CSC 28</td>
+                        <td>06/2020-08/2020 9am-1pm</td>
+                        <td>$1789</td>
+                        <td>Spring, Summer</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSC 29</td>
+                        <td>09/2020-10/2020 1pm-3pm</td>
+                        <td>$1542</td>
+                        <td>Fall</td>
+                    </tr>
+
+                    <tr>
+                        <td>CSC 30</td>
+                        <td>07/2020-09/2020 8am-1pm</td>
+                        <td>$1982</td>
+                        <td>Summer, Fall</td>
+                    </tr>
+                </table>
+            </p>
+        </div>
+
+        <div id="register">
+            <p>
+                <span style="text-decoration: underline;">To register,</span> email to: 
+                <a id="mail-link" href="mailto:register@domain.com">register@domain.com</a>
+                OR click the following link <a id="web-link" href="#">www.techclass.com</a>
+            </p>
+        </div>
+
+    </body>
+</html>
